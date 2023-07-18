@@ -1,0 +1,14 @@
+{
+    "hostname": {
+        "value": "${hostname}"
+    },
+    "disk_path": {
+        "value": "/opt/tfe"
+    },
+    "enc_password": {
+        "value": "vaultpassword"
+    },
+    "production_type": {
+        "value": "disk"
+    }
+}

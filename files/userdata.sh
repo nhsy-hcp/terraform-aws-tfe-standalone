@@ -17,7 +17,7 @@ umount /mnt/var
 mount /var
 
 mkfs -t ext4 /dev/nvme1n1
-echo "/dev/nvme1n1    /var/lib/docker        ext4   defaults,discard,noexec,nosuid        0 1"  >> /etc/fstab
+echo "/dev/nvme1n1    /var/lib/docker        ext4   defaults,discard        0 1"  >> /etc/fstab
 mkdir -p /var/lib/docker
 mount /var/lib/docker
 

@@ -12,3 +12,5 @@ terraform.tfvars
 *.terraform.lock.hcl
 
 tfe.rli
+
+.idea/*
